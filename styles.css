@@ -129,6 +129,20 @@ form button:hover {
   background: #aa0000;
 }
 
+.sidebar {
+  max-height: 650px;   /* Igual altura que el mapa */
+  overflow-y: auto;
+  padding-right: 10px; /* Espacio para que no tape el scroll */
+}
+
+.sidebar::-webkit-scrollbar {
+  width: 6px;
+}
+.sidebar::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 5px;
+}
+
 /* ======== LISTA DE CHARLAS ======== */
 .talks-list li {
   background: #f4f4f4;

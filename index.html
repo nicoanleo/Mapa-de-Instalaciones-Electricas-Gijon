@@ -23,7 +23,7 @@
       </div>
       <nav>
         <a class="small" href="#contacto">Contacto</a> •
-        <a class="small" href="#charlas">Charlas Informativas</a>
+        <a class="small" href="#charlas">Charlas Informativas</a> •
         <a class="small" href="#informacion">Información</a>
       </nav>
     </header>
@@ -54,9 +54,9 @@
             <button type="submit">Enviar</button>
           </form>
         </div>
-
+        <br>
         <div class="card section" id="charlas">
-          <h3>Charlas Informativas</h3>
+          <h3>Solicitar charla</h3>
           <form id="talkForm">
             <label>Nombre</label> 
             <input type="text" required/>
@@ -64,18 +64,26 @@
             <label>Ubicación</label>
             <input type="text" required />
 
-            <label>Título</label>
-            <input type="text" required />
+            <label>Telefono</label>
+            <input type="tel" required />
 
-            <label>Fecha</label>
-            <input type="date" />
-
-            <button type="submit">Proponer charla</button>
+            <button type="submit">Solicitar charla</button>
           </form>
-
+          <br>
           <h4>Próximas charlas</h4>
           <ul class="talks-list" id="talkList">
-            <li><strong>Renovación segura</strong><br><small>15/01/2026</small></li>
+            <li><strong>Renovación segura</strong><br>
+              <small>8/01/2026</small><br>
+              <small>Cimavilla</small>
+              <button>Inscribirse</button>
+            </li>
+          </ul>
+          <ul class="talks-list" id="talkList">
+            <li><strong>Riesgos electricos</strong><br>
+              <small>19/01/2026</small><br>
+              <small>La Calzada</small>
+              <button>Inscribirse</button>
+            </li>
           </ul>
         </div>
       </aside>
